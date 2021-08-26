@@ -32,14 +32,10 @@ int main ()
 
 int lerValores ()
 {
-  for (int i = 0; i < n-1; i++)
-  {
-    int valor;
-    cout << "\nDigite um valor.: ";
-    cin >> valor;
-    return valor;
-  }
-  
+  int valor;
+  cout << "\nDigite um valor.: ";
+  cin >> valor;
+  return valor;
 }
 
 void novoValor ()
@@ -96,6 +92,3 @@ void controle ()
 
 
 }
-
-
-
